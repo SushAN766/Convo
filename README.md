@@ -3,7 +3,7 @@
 </p>
 
 
-<h1 align="center">Convo — Real-Time Chat Application </h1>
+
 
 
 
