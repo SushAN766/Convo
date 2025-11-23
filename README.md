@@ -1,4 +1,8 @@
-# Convo — Real-Time Chat Application
+<h1 align="center">Convo — Real-Time Chat Application ⚡</h1>
+
+<p align="center">
+  <img src="assets/convo-banner.png" alt="Convo Banner" width="100%">
+</p>
 
 Convo is a **modern real-time chat app** built using the **MERN stack**, **Socket.io**, **TailwindCSS**, and **DaisyUI**.  
 It supports **real-time messaging**, **secure authentication**, and **global state management** using Zustand — all in a sleek, responsive UI.
@@ -38,7 +42,7 @@ MONGO_DB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 NODE_ENV=development
 ```
-### Install dependencies
+### 3. Install dependencies
 
 ### Backend
 ```bash
@@ -52,7 +56,7 @@ cd frontend
 npm install
 ```
 
-## 3. Build & Start the App
+## Build & Start the App
 
 ### Build frontend
 ```bash
@@ -64,7 +68,8 @@ npm run build
 cd backend
 npm start
 ```
-> The app should now be running locally. Open your browser and visit `http://localhost:5000` (or the frontend URL if served separately).
+> The app should now be running locally.
+> Open your browser and visit `http://localhost:5000`
 
 ---
 
@@ -74,20 +79,18 @@ Convo includes a production-ready Docker configuration.
 
 ---
 
-## 1 Build Docker Image
+## 1. Build Docker Image
 
 From the project root:
 
 ```bash
 docker build -t convo-app .
 ```
-## 2 Run the App in Docker
+## 2. Run the App in Docker
 ```bash
 docker run -p 5000:5000 --env-file .env convo-app
 ```
-
-## Visit Your App
-
+Visit Your App
 [http://localhost:5000](http://localhost:5000)
 
 ---
@@ -113,7 +116,7 @@ services:
 docker-compose up --build
 
 ```
-#  .dockerignore
+##  .dockerignore
 
 Create a `.dockerignore` file:
 
@@ -149,4 +152,7 @@ Render and Railway automatically detect your `Dockerfile`.
 
 Pull requests are welcome!  
 For major changes, please open an issue first to discuss the proposal.
+
+---
+<p align="center"> <b>Convo — Simple. Fast. Real-Time.</b> </p>
 
