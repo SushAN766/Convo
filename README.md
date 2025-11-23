@@ -1,11 +1,12 @@
-<h1 align="center">Convo — Real-Time Chat Application ⚡</h1>
+<h1 align="center">Convo — Real-Time Chat Application </h1>
 
 <p align="center">
   <img src="assets/convo-banner.png" alt="Convo Banner" width="100%">
 </p>
 
-Convo is a **modern real-time chat app** built using the **MERN stack**, **Socket.io**, **TailwindCSS**, and **DaisyUI**.  
-It supports **real-time messaging**, **secure authentication**, and **global state management** using Zustand — all in a sleek, responsive UI.
+<p align="center">
+A modern real-time chat application built using the MERN stack, Socket.io, TailwindCSS, and DaisyUI.
+</p>
 
 
 ---
